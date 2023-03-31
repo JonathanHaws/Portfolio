@@ -3,7 +3,7 @@
     --color2: rgb(186, 102, 49); 
     --color3: rgb(44, 44, 44); 
     --color4: rgba(169, 169, 169, 0.67); 
-    --columnwidth: 600px;
+    --columnwidth: 700px;
 }
 html{ 
     scroll-behavior: smooth;
