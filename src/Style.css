@@ -1,0 +1,177 @@
+
+:root { 
+  --color1: rgb(212, 212, 212); 
+  --color2: rgb(47, 120, 131); 
+  --color3: rgb(44, 44, 44); 
+  --color4: rgba(169, 169, 169, 0.67); 
+  --color5: rgb(60, 60, 60); 
+}
+
+a { 
+  color:var(--color2); font:und; text-decoration: none;
+}
+
+a:hover {
+  color:var(--color1);
+}
+
+header {
+  margin: auto; 
+  width: 100vw;
+  min-width: 100%;
+  border: 0;
+  padding: 0;
+  background-color: var(--color3) ;
+}
+
+#header-title { 
+  text-align:center; 
+  color:var(--color1); 
+  margin:0px; 
+  padding-top:20px; 
+  border:0px; 
+}
+
+span {
+  color: var(--color3);
+  background-color: var(--color2);
+  border-radius: 6px;
+  padding: 5px;
+}
+
+nav { 
+  margin:auto;
+  width:300px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.nav-link {
+  color : var(--color2);
+}
+
+.nav-link:hover {
+  color : var(--color1);
+}
+
+#work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img { 
+  border:6px solid; 
+  border-style: groove; 
+  border-color:var(--color2);
+}
+
+body { 
+  min-width: 320px; 
+  margin:0%; 
+  border:0px; 
+  padding:0px; 
+  background-color:var(--color1); 
+  font-family:sans-serif; 
+  font-weight:bold;
+  padding-bottom: 6rem;
+}
+
+section { 
+  width: 90%;
+  margin:auto; 
+  margin-top:25px;  
+  padding:2vw; 
+  background-color:var(--color4); 
+  margin-bottom: 0px;
+  border: solid 6px; 
+  border-color: var(--color1); 
+  border-style: groove;
+}
+
+p { 
+  text-align:center; 
+  font-size:larger; 
+  color:var(--color3); 
+} 
+
+#work { 
+  display:'flex'; 
+  flex-wrap: 'wrap';
+}
+
+.project {
+  flex: grow 1;
+  flex-basis: 100%;
+  display: inline-flex;
+  align-items: stretch;
+  flex-direction: column;
+  margin: 5px;
+  position: relative;
+}
+
+.project:hover .project-img{
+  border-color: var(--color1);
+} 
+
+.project:hover .project-caption{
+  background-color: var(--color1);
+  color: var(--color2);
+}
+
+.project-img { 
+  margin:0px; 
+  border-color:var(--color2); 
+  box-sizing: border-box; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.project-caption {
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  color: var(--color1);
+  border-radius: 0 0 6px 0;
+}
+
+#contact {
+  align-items: left;
+  width: max-content;
+}
+
+footer{
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: var(--color4);
+}
+
+@media screen and (max-width: 600px) {
+  .project-caption {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  section {
+    width: 50%;
+  }
+}
