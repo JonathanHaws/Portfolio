@@ -4,12 +4,12 @@ import Project from './Project';
 function Work() {
   return (
     <section id="work">
-      <Project imageUrl="./Images/Asteroids.gif" link="https://github.com/coltmort/Cosmogeddon" caption="Online Multiplayer Asteroids Socket IO" width= "100%"/>
-      <Project imageUrl="./Images/RecoveryRadar.gif" link="https://github.com/NewguyenGitHub/Recovery-Radar" caption="Recovery Radar" width= "40%"/>
-      <Project imageUrl="./Images/Techblog.gif" link="https://github.com/JonathanHaws/Tech-Blog" caption="Tech Blog" width= "20%"/>
-      <Project imageUrl="./Images/WeatherDashboard.png" link="https://github.com/JonathanHaws/Weather-Dashboard" caption="Weather Dashboard" width= "20%"/>
-      <Project imageUrl="./Images/Maze.gif" link="https://github.com/JonathanHaws/C-Maze-Game" caption="C++ Maze Game" width= "43%"/>
-      <Project imageUrl="./Images/CodeQuiz.png" link="https://github.com/JonathanHaws/CODE-QUIZ" caption="Code Quiz" width= "43%"/>
+      <Project imageUrl="./Portfolio/Images/Asteroids.gif" link="https://github.com/coltmort/Cosmogeddon" caption="Online Multiplayer Asteroids Socket IO" width= "100%"/>
+      <Project imageUrl="./Portfolio/Images/RecoveryRadar.gif" link="https://github.com/NewguyenGitHub/Recovery-Radar" caption="Recovery Radar" width= "40%"/>
+      <Project imageUrl="./Portfolio/Images/Techblog.gif" link="https://github.com/JonathanHaws/Tech-Blog" caption="Tech Blog" width= "20%"/>
+      <Project imageUrl="./Portfolio/Images/WeatherDashboard.png" link="https://github.com/JonathanHaws/Weather-Dashboard" caption="Weather Dashboard" width= "20%"/>
+      <Project imageUrl="./Portfolio/Images/Maze.gif" link="https://github.com/JonathanHaws/C-Maze-Game" caption="C++ Maze Game" width= "43%"/>
+      <Project imageUrl="./Portfolio/Images/CodeQuiz.png" link="https://github.com/JonathanHaws/CODE-QUIZ" caption="Code Quiz" width= "43%"/>
     </section>
   );
 }
