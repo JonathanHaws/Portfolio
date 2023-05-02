@@ -33,7 +33,7 @@ header {
 }
 
 span {
-  color: var(--color3);
+  color: var(--color1);
   background-color: var(--color2);
   border-radius: 6px;
   padding: 5px;

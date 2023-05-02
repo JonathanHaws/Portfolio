@@ -5,9 +5,9 @@ const Header = ({ setPage }) => {
     <header>
       <h1 id = "header-title"> Jonathan Haws {' '} <span id = "header-subtitle"> Portfolio </span> </h1>
       <nav>
-        <h2 class = "nav-link" onClick={() => setPage('about')}> About </h2>
-        <h2 class = "nav-link" onClick={() => setPage('work')}> Work </h2>
-        <h2 class = "nav-link" onClick={() => setPage('contact')}> Contact </h2>
+        <h2 className = "nav-link" onClick={() => setPage('about')}> About </h2>
+        <h2 className = "nav-link" onClick={() => setPage('work')}> Work </h2>
+        <h2 className = "nav-link" onClick={() => setPage('contact')}> Contact </h2>
       </nav>
     </header>
   );
