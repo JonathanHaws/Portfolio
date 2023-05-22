@@ -19,7 +19,7 @@ class About extends Component {
 
       <section> 
         <p> <span>TECHNICAL PROFICIENCY</span></p>
-        <p> Git Team Workflow / Node / Javascript / Express / Websockets / React / Tailwind / Mongo / SQL / Heroku / HTML Canvas / CSS </p>
+        <p> Git Team / Node / Javascript / Express / Websockets / React / Tailwind / Mongo / SQL / Heroku / HTML Canvas / CSS </p>
       </section>
       </>
     );
