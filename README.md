@@ -1,7 +1,1 @@
-
-# Portfolio
-
-[View here](https://jonathanhaws.github.io/Portfolio/)
-
-### Credits
-Jonathan Haws / React / Github Pages
+# [View Portfolio Here](https://jonathanhaws.github.io/Portfolio/)
